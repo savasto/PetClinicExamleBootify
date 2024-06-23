@@ -25,7 +25,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 @Getter
 @Setter
 public class Owner {
-
+//class owner
     @Id
     @Column(nullable = false, updatable = false)
     @SequenceGenerator(
